@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Pedra, Papel e Tesoura!</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="game-container">
+            <div class="player-choice neumorphic">
+                <h3>Sua Escolha</h3>
+                <div class="choice" data-choice="rock">Pedra</div>
+                <div class="choice" data-choice="paper">Papel</div>
+                <div class="choice" data-choice="scissors">Tesoura</div>
+            </div>
+            <div class="computer-choice neumorphic">
+                <h3>Escolha do Computador</h3>
+                <div class="choice" data-choice="rock">Pedra</div>
+                <div class="choice" data-choice="paper">Papel</div>
+                <div class="choice" data-choice="scissors">Tesoura</div>
+            </div>
+        </div>
+        <div class="result-container neumorphic">
+            <h2>Resultado</h2>
+            <p id="round-result">Escolha sua jogada</p>
+        </div>
+        <div class="score-container neumorphic">
+            <h2>Placar</h2>
+            <p>Jogador: <span id="player-score">0</span></p>
+            <p>Computador: <span id="computer-score">0</span></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
